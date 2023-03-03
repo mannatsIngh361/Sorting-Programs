@@ -7,8 +7,9 @@ public class Insrtsort {
             while(i>=0 && arr[i]>key){
                 arr[i+1]=arr[i];
                 i=i-1;
-                arr[i+1]=key;
+                
             }
+            arr[i+1]=key;
         }
         System.out.println("Sorted array is ");
         for(int k=0; k<n; k++){
